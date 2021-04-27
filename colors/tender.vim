@@ -274,8 +274,27 @@ hi yamlFlowStringDelimiter guifg=#dddddd ctermfg=253 guibg=NONE ctermbg=NONE gui
 hi yamlKeyValueDelimiter guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
-  let g:terminal_ansi_colors = repeat([0], 16)
+    " it breaks fzf
+    "let g:terminal_ansi_colors = repeat([0], 16)
 
+    let g:terminal_color_foreground = "#282828"
+    let g:terminal_color_background = "#dddddd"
+    let g:terminal_color_0 = "#282828"
+    let g:terminal_color_1 = "#f43753"
+    let g:terminal_color_2 = "#c9d05c"
+    let g:terminal_color_3 = "#ffc24b"
+    let g:terminal_color_4 = "#b3deef"
+    let g:terminal_color_5 = "#d3b987"
+    let g:terminal_color_6 = "#73cef4"
+    let g:terminal_color_7 = "#eeeeee"
+    let g:terminal_color_8 = "#1d1d1d"
+    let g:terminal_color_9 = "#f43753"
+    let g:terminal_color_10 = "#c9d05c"
+    let g:terminal_color_11 = "#ffc24b"
+    let g:terminal_color_12 = "#b3deef"
+    let g:terminal_color_13 = "#d3b987"
+    let g:terminal_color_14 = "#73cef4"
+    let g:terminal_color_15 = "#ffffff"
 endif
 
 if has('nvim')
