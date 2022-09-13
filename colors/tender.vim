@@ -47,7 +47,7 @@ hi MatchParen guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=Bold cterm=B
 hi NonText guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#dddddd ctermfg=253 guibg=#282828 ctermbg=235 gui=NONE cterm=NONE
 hi PMenu guifg=#dadada ctermfg=253 guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
-hi PMenuSel guifg=#666666 ctermfg=242 guibg=#c9d05c ctermbg=185 gui=NONE cterm=NONE
+hi PMenuSel guifg=#666666 ctermfg=242 guibg=#555555 ctermbg=185 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#666666 ctermfg=242 guibg=#666666 ctermbg=242 gui=NONE cterm=NONE
 hi PmenuThumb guifg=#c9d05c ctermfg=185 guibg=#c9d05c ctermbg=185 gui=NONE cterm=NONE
 hi Question guifg=#c9d05c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
